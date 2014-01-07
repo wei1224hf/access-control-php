@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+.view_lable{
+    display:block;float:left;width:20%;
+    margin-bottom: 4px;    
+    height: 21px;
+}
+.view_lable span{
+	background-color: rgb(210,240,235);
+	display:block;
+	margin-left: 4px;
+	height: 21px;
+	width: 96%;
+	font-size: 15px;
+	font-weight: bold;
+}
+.view_data{
+    display:block;float:left;width:30%;
+    margin-bottom: 4px;
+    height: 21px;    
+}
+.view_data span{
+    background-color: rgb(220,250,245);
+    display:block;
+    margin-left: 4px;
+    height: 21px;
+    width: 96%;
+    font-size: 15px;
+}
