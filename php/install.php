@@ -364,7 +364,7 @@ class install{
 			}
 		}
 		
-		$s = implode(" ", $sqls);
+		$s = implode(";", $sqls);
 		file_put_contents("../sql/data.sql", $s);
 		$t_return = array("status"=>"1","msg"=>count($sqls)." sql to execute ","sqls"=>$sqls);
 		exit(json_encode($t_return));
